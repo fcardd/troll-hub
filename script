@@ -494,6 +494,3 @@ wait(.3)
 Frame.ClipsDescendants = false
    end,
 })
-
-local MainTab = Window:CreateTab("kick off scripts", nil) -- Title, Image 
-local MainSection = MainTab:CreateSection("Main")
