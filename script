@@ -495,102 +495,12 @@ Frame.ClipsDescendants = false
    end,
 })
 
-local MainTab = Window:CreateTab("sub to f_card on yt!", nil) -- Title, Image 
-local MainSection = MainTab:CreateSection("Main")
-
-local MainTab = Window:CreateTab("kick off script(s)", nil) -- Title, Image 
+local MainTab = Window:CreateTab("kick off script(s)" nil) -- Title, Image 
 local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
-   Name = "kick off fun script",
+   Name = "kick off goal script",
    Callback = function()
-gui = Instance.new("ScreenGui",game.CoreGui)
-gui.Name = "CustomizableGui"
-gui.ResetOnSpawn = false
- 
-box = Instance.new("ScrollingFrame",gui)
-box.Name = "Box"
-box.Size = UDim2.new(0,320,0,150)
-box.Position = UDim2.new(0,0,0,300)
-box.BackgroundColor3 = Color3.new(0,0,0) -- What you want the color to be in R,G,B (you can keep it as it already is)
-box.BackgroundTransparency = 0.60 -- What you want the transparency to be
-box.BorderSizePixel = 0
-box.ScrollBarThickness = 0
-box.Active = true
-box.Draggable = true -- If you want the box to be draggable or not (recommended to keep true)
- 
-top = Instance.new("TextLabel",box)
-top.Name = "TopBar"
-top.Size = UDim2.new(0,320,0,25)
-top.BackgroundColor3 = Color3.new(0,255,255) -- Color of the top bar
-top.BackgroundTransparency = .4 -- Transparency of the bar
-top.BorderSizePixel = 0
-top.Font = "SourceSans"
-top.FontSize = "Size14"
-top.Text = "backyard's kick off gui" -- Change it to what you want the top bar to say (or keep it blank)
-top.TextColor3 = Color3.new(0,0,0)
- 
-pos1 = 25
-function c1(txt) -- This is a function that creates buttons!
-local a = Instance.new("TextButton",box)
-a.Name = (txt)
-a.Size = UDim2.new(0,150,0,40)
-a.Position = UDim2.new(0,15,0,pos1)
-a.BackgroundColor3 = Color3.new(255,255,255)
-a.BackgroundTransparency = 40
-a.BorderSizePixel = 0
-a.Font = "SourceSansLight"
-a.FontSize = "Size24"
-a.Text = (txt)
-a.TextColor3 = Color3.new(52,72,255)
-pos1 = pos1+40
-return a
-end
- 
-pos2 = 25
-function c2(txt)
-local a = Instance.new("TextButton",box)
-a.Name = (txt)
-a.Size = UDim2.new(0,150,0,40)
-a.Position = UDim2.new(0,170,0,pos2)
-a.BackgroundColor3 = Color3.new(255,255,255)
-a.BackgroundTransparency = 40
-a.BorderSizePixel = 0
-a.Font = "SourceSansLight"
-a.FontSize = "Size24"
-a.Text = (txt)
-a.TextColor3 = Color3.new(52,72,255)
-pos2 = pos2+40
-return a
-end
- 
-prnt2 = c1("INTERCEPT!")
- 
-prnt = c2("GOAL!")
- 
-prnt.MouseButton1Down:connect(function()
- 
- 
-    workspace.MapHolder:GetChildren()[1].BlueGoal.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-    workspace.MapHolder:GetChildren()[1].RedGoal.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
-    workspace.SoccerBall.Position = game.Players.LocalPlayer.Character["Right Leg"].Position
-    game.Players.LocalPlayer.Character.Humanoid.Jump = true
- 
-end)
- 
-prnt2.MouseButton1Down:connect(function()
- 
- 
-   local A_1 = "Kick"
-local A_2 = "Trickshot"
-local A_3 = game:GetService("Workspace").SoccerBall
-local A_4 = 58.777630615234
-local A_5 = Vector3.new(9.64690495, 82.8000031, -70.1397018)
-local A_6 = Vector3.new(25.7804337, -56.2313538, -428.990417)
-local A_7 = Vector3.new(34.4858704, -89.2313538, -492.285004)
-local Event = game:GetService("ReplicatedStorage").MasterKey
-Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
- 
-end)
+loadstring(game:HttpGet('https://pastebin.com/raw/N1hAQ4SL'))()
    end,
 })
