@@ -163,3 +163,6 @@ local Button = MainTab:CreateButton({
 
 local MainTab = Window:CreateTab("f.card on yt", nil) -- Title, Image 
 local MainSection = MainTab:CreateSection("Main")
+
+local MainTab = Window:CreateTab("f.card on yt", nil) -- Title, Image 
+local MainSection = MainTab:CreateSection("Main")
