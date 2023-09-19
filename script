@@ -495,3 +495,5 @@ Frame.ClipsDescendants = false
    end,
 })
 
+local MainTab = Window:CreateTab("sub to f_card on yt!", nil) -- Title, Image 
+local MainSection = MainTab:CreateSection("Main")
