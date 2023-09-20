@@ -608,5 +608,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/m
    end,
 })
 
-local MainTab = Window:CreateTab("obby but your on a bike", nil) -- Title, Image 
+local MainTab = Window:CreateTab("pet sim x", nil) -- Title, Image 
 local MainSection = MainTab:CreateSection("Main")
+
+local Button = MainTab:CreateButton({
+   Name = "evo v4",
+   Callback = function()
+loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))() 
+   end,
+})
