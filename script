@@ -586,7 +586,7 @@ end)
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Infinite yield(admin)",
+   Name = "kick off gui 2",
    Callback = function()
 local placeId = 'https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/games/'.. game.PlaceId
 local found, notFound = pcall(function()
