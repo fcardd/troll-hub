@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "😎troll hub made by f.card (beta v1.1)😎",
+   Name = "😎f.cards script hub (beta v1.2)😎",
    LoadingTitle = "f_card on yt!!",
    LoadingSubtitle = "by f_card",
    ConfigurationSaving = {
