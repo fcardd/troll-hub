@@ -600,3 +600,10 @@ else
 end
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "OP GUI KICK OFF",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+   end,
+})
