@@ -243,7 +243,7 @@ TextLabel_3.Position = UDim2.new(7.4505806e-09, 0, 0.860465109, 0)
 TextLabel_3.Size = UDim2.new(0, 214, 0, 24)
 TextLabel_3.ZIndex = 3
 TextLabel_3.Font = Enum.Font.SourceSansBold
-TextLabel_3.Text = "FOR A COOKIE"
+TextLabel_3.Text = "LOL"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 15.000
  
