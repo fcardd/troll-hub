@@ -615,5 +615,14 @@ local Button = MainTab:CreateButton({
    Name = "evo v4",
    Callback = function()
 loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))() 
+})
+
+local Button = MainTab:CreateButton({
+   Name = "project wd",
+   Callback = function()
+getgenv().key = "projectWBIsAwesomeG8J7GJ678PY"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+---key from https://discord.gg/u7JNWQcgs 
    end,
 })
+
